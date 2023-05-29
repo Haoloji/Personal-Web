@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css" integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>web gpt</title>
+</head>
+<body>
+  <div class="judul-buton">
+    <h1>Profile</h1>
+    <a href="https://wa.me/62895809453322/"><i class="fab fa-whatsapp"></i></a>
+    <a href=""><i class="fab fa-instagram"></i></a>
+    <a href="https://m.facebook.com/rifki.topians"><i class="fab fa-facebook"></i></a>
+<button onclick="toggleSidebar()" class="button"><i class="fas fa-list button"></i></button>
+  </div>
+
+<div class="sidebar">
+  <ul>
+    <li><a href="https://chat.whatsapp.com/GPLdBQL9L293hSc9JrosJm">GROUP  <i class="fab fa-whatsapp wa"></i></a></li>
+    <li><a href="#order" class="order1">Price List</a></li>
+    <li><a href="#">Help!!</a></li><hr>
+  </ul>
+</div>
+
+<div class="content">
+  <div class="container">
+    <h4><b>Rifki Test</b></h4> 
+    <p>Web Developer Baru belajar</p> 
+    <p>Email: rifkimadiun1@gmail.com</p> 
+    <p>Phone: +62 8958-0945-3322</p> 
+  </div>
+  <p>Isi konten</p><hr>
+  <h4 id="order">Order?</h4>
+  <p>Panel Untuk bot wa</p>
+  <p>Jadi bot? Bisa</p>
+  <p>Run Bot?Bisa</p>
+  <p>
+    Bot Fitur <br>
+    Push Kontak <br>
+    Bot Store <br>
+    Bot CPanel <br>
+  </p>
+  
+</div>
+<script>
+  function toggleSidebar() {
+  var sidebar = document.querySelector('.sidebar');
+  var content = document.querySelector('.content');
+  
+  sidebar.classList.toggle('sidebar-hidden');
+  content.classList.toggle('content-full');
+}
+</script>
+</body>
+</html>
